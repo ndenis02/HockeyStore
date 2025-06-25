@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+    <script src="./js/main-3.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Sticks And Skates</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./welcome.html">Welcome</a></li>
+                    <li><a href="./sticks.html">Sticks</a></li>
+                    <li><a href="./skates.html">Skates</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                    <li><a href="./invoice.html">Invoice</a></li>
+                    <li><a href="./home.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="myForm2">
+        <section id="boxes">
+            <div class="container">
+                <div class="box2">
+                    <h1>Credit Card Info</h1>
+                    <label>*Card Type</label>
+                    <select name="cardType" id="cardType">
+                        <option value="mastercard">Mastercard</option>
+                        <option value="visa">Visa</option>
+                        <option value="amex">American Express</option>
+                    </select>
+                    <p></p>
+                    <label>*Card Number</label>
+                    <input type="text" id="mandatory" name="cardNumber">
+                    <p id="numberError"></p>
+                    <label>*CVC</label>
+                    <input type="text" id="mandatory" name="cvc">
+                    <p id="cvcError"></p>
+                    <label>*Name On The Card</label>
+                    <input type="text" id="mandatory" name="cardName">
+                    <p id="cardNameError"></p>
+                    <label>*Expiration</label>  
+                    <input type="text" id="mandatory" name="expiration">
+                    <p id="expirationDateError"></p>
+                    <button type="button" id="clearForm">Clear</button>
+                    <h2>Total Purchase</h2>
+                    <input type="text" readonly>
+                    <div id="tos">
+                        <p>Show Terms</p>
+                        <input type="checkbox" name="agreeToTerms">*Agree to Term and Conditions
+                        <p id="tosError"></p>
+                    </div>
+                    
+                </div>
+
+                <div class="box5">
+                    <h1>Shipping Address</h1>
+                    <label>*Name</label>
+                    <input type="text" id="mandatory" name="buyerName">
+                    <p id="buyerNameError"></p>
+                    <label>*Address</label>
+                    <input type="text" id="mandatory" name="address">
+                    <p id="addressError"></p>
+                    <label>Address Line 2</label>
+                    <input type="text" id="mandatory" name="address2">
+                    <p></p>
+                    <label>*City</label>  
+                    <input type="text" id="mandatory" name="city">
+                    <p id="cityError"></p>
+                    <label>*Postal Code</label> 
+                    <input type="text" id="mandatory" name="postalCode">
+                    <p id="postalCodeError"></p>
+                    <label>*Province</label> 
+                    <input type="text" id="mandatory" name="province">
+                    <p id="provinceError"></p>
+                    <label>*Country</label>
+                    <input type="text" id="mandatory" name="country">
+                    <p id="countryError"></p>
+                </div>
+                <input type="submit" value="Place Order">
+            </div>
+        </section>
+    </form>
+
+    <footer>
+        <div class="footer">
+            <a href="https://twitter.com/home" target="_blank"><img src="./media/X.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./media/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.skype.com/en/" target="_blank"><img src="./media/skype.png" alt="Skype"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./media/Instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

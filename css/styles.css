@@ -1,0 +1,271 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AF1E2D;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container,
+.productContainer{
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main{
+
+    min-height: 800px;
+}
+
+header{
+
+    background-color: #192168;
+    color: #AF1E2D;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a{
+
+    background-color: #192168;
+    color: #AF1E2D;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul{
+
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+
+    float: left;
+    display: inline;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.myForm p{
+
+    font-size: 16px;
+    color: #192168;
+    font-weight: bold;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #192168;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer a{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer img{
+
+    width: 50px;
+    height: 50px;
+}
+
+#branding{
+
+    float: left;
+}
+
+#branding h1{
+
+    margin: 0;
+}
+
+nav{
+
+    float: right;
+    margin-top: 10px;
+}
+
+.myForm{
+
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.myForm label,
+.myForm2 label{
+
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.myForm input,
+.myForm2 input[type="text"]{
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.myForm input[type="submit"]{
+
+    margin: 0;
+    padding: 10px;
+    background-color: #192168;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.myForm2 input[type="submit"]{
+
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #192168;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.myForm2 button{
+
+    margin: 15px 0;
+    padding: 5px;
+    background-color: #192168;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#boxes{
+
+    margin-top: 20px;
+}
+
+.box{
+
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box img{
+
+    width: 100%;
+}
+
+.box2{
+
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.box3{
+
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box4{
+
+    float: left;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.box5{
+
+    float: left;
+    width: 50%;
+    height: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.box4 button{
+
+    width: 80%;
+    margin: 5px 0;
+    background-color: #192168;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#showcase{
+
+    margin-top: 25px;
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase p{
+
+    font-size: 20px;
+}
+
+#cartItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.cart-item img {
+    max-width: 100px; 
+    margin-right: 10px;
+}
+
+.product-name {
+    flex: 1; 
+    text-align: center;
+}
+
+.product-price {
+    text-align: right;
+}
